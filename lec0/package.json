@@ -1,0 +1,15 @@
+{
+  "name": "lec0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "intro2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{  
+    "jio" : "intro2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
