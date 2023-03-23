@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 //console.log(process);
 let content = process.argv.slice(2);
 let fs = require("fs");
@@ -29,8 +30,7 @@ for(let i=0 ;i< content.length; i++){
 let fileContent ="";
 for(let j=0 ;j<files.length;j++){
 
-  fileContent += fs.readFileSync(files[j]);
- 
+  fileContent += fs.readFileSync( files[j]) ;  
 }
 
 console.log(fileContent);  
