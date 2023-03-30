@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+//shebang syntax
+
 //console.log(process);
 let content = process.argv.slice(2);
 let fs = require("fs");
